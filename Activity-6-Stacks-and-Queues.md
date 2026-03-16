@@ -39,6 +39,9 @@ Starting with an initally empty with a length of six and index beginning at 1.
 The first three actions are all enqueue meaning we'll be appending their values to the tail. When our queue is empty the tail is equalivalent to the head. After our 3 enqueue actions the queue will look like this.
 <img width="889" height="52" alt="image" src="https://github.com/user-attachments/assets/47fdcdb0-e442-4c01-aa85-807f029ae198" />
 
+### DEQUEUE(Q)
+This action will remove the current head of the queue. Depending on the implementation the remain values can shift or remain in the same place. In Fig 18 a solution for overflows and underflows is implemented so we'll just keep the remaining values in their place.
+
 
 
 
